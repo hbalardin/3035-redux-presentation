@@ -6,7 +6,7 @@ import {
   HeaderContainer, LogoContainer, NavContainer, IconItem,
 } from './styles';
 
-import logoImg from '../../assets/temp-logo.png';
+import logoImg from '../../assets/3035store.png';
 
 export const Header = (): JSX.Element => (
   <HeaderContainer>

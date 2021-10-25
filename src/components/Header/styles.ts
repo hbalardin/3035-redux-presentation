@@ -27,6 +27,7 @@ export const HeaderContainer = styled.header`
 
 export const LogoContainer = styled.a`
   height: 100%;
+  padding: 8px;
 
   img {
     height: 100%;
