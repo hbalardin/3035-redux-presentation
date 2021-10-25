@@ -12,7 +12,7 @@ export const Header = (): JSX.Element => (
   <HeaderContainer>
     <div>
       <LogoContainer href="http://">
-        <img src={logoImg} alt="3035Tech" />
+        <img src={logoImg} alt="3035Store" />
       </LogoContainer>
       <NavContainer>
         <ul>
