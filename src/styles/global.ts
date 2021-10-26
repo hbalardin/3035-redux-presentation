@@ -11,9 +11,4 @@ export const GlobalStyle = createGlobalStyle`
     button {
       cursor: pointer;
     }
-
-    body, #root {
-      height: 100vh;
-      width: 100vw;
-    }
 `;
