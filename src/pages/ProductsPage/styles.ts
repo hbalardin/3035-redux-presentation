@@ -8,7 +8,7 @@ export const Container = styled.main`
   width: 100%;
   background: ${(props) => props.theme.color.background};
 
-  > div {
+  > section {
     height: 100%;
     width: 100%;
     max-width: 1040px;

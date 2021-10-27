@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CardContainer = styled.section`
-  width: 288px;
+  width: 304px;
   max-height: 440px;
 
   background: ${(props) => props.theme.color.white};
@@ -19,7 +19,7 @@ export const CardContainer = styled.section`
       height: 100%;
       width: 100%;
 
-      object-fit: cover;
+      object-fit: contain;
     }
   }
 `;
