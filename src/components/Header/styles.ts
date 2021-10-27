@@ -10,6 +10,7 @@ export const HeaderContainer = styled.header`
 
   position: fixed;
   top: 0;
+  z-index: 10;
 
   background-color: ${(props) => props.theme.color.white};
 

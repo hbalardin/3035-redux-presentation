@@ -1,30 +1,35 @@
 import { useState } from 'react';
 
-import { CardContainer } from './styles';
+import { CardContainer, CardContent } from './styles';
 import { FavoriteButton } from '../FavoriteButton';
+import { Button } from '../Button';
 
-import productImg from '../../assets/white-tshirt.png';
+interface ProductCardProps {
+  id: string;
+  title: string;
+  price: string;
+  path: string;
+}
 
-export const ProductCard = (): JSX.Element => {
+export const ProductCard = ({
+  id, path, price, title,
+}: ProductCardProps): JSX.Element => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   return (
-    <CardContainer>
-      <header>
-        <img src={productImg} alt="camiseta branca" />
+    <CardContainer id={id}>
+      <div>
+        <img src={path} alt="white t-shirt" />
         <FavoriteButton isFavorite={isFavorite} onClick={() => setIsFavorite(!isFavorite)} />
 
-      </header>
-      <footer>
-        <h2>Caneco 300ml</h2>
+      </div>
+      <CardContent>
+        <h2>{title}</h2>
         <div>
-          <div>
-            <p>Preço</p>
-            <strong>R$ 49</strong>
-          </div>
-          <button type="button">Adicionar ao carrinho</button>
+          <strong>{price}</strong>
+          <Button>Comprar</Button>
         </div>
-      </footer>
+      </CardContent>
     </CardContainer>
   );
 };
