@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "2",
+      "title": "Camiseta comum",
+      "price": "R$ 39",
+      "path": "products/white-tshirt.png"
+    },
+    {
+      "id": "3",
+      "title": "Outra camiseta",
+      "price": "R$ 49",
+      "path": "products/white-tshirt.png"
+    },
+    {
+      "id": "4",
+      "title": "Camiseta incomum",
+      "price": "R$ 59",
+      "path": "products/white-tshirt.png"
+    },
+    {
+      "id": "1",
+      "title": "Manto Sagrado",
+      "price": "R$ 999",
+      "path": "products/white-tshirt.png"
+    },
+    {
+      "id": "5",
+      "title": "Caneca",
+      "price": "R$ 39",
+      "path": "products/mug.png"
+    },
+    {
+      "id": "10",
+      "title": "Caneca suja",
+      "price": "R$ 9,99",
+      "path": "products/mug.png"
+    },
+    {
+      "id": "7",
+      "title": "Caneca com fungo",
+      "price": "R$ 0,99",
+      "path": "products/mug.png"
+    },
+    {
+      "id": "8",
+      "title": "Caneca da firma",
+      "price": "R$ 99",
+      "path": "products/mug.png"
+    },
+    {
+      "id": "9",
+      "title": "Caneca roubada",
+      "price": "R$ 999",
+      "path": "products/mug.png"
+    }
+  ]
+}

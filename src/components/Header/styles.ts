@@ -7,7 +7,10 @@ interface IconItemProps {
 export const HeaderContainer = styled.header`
   width: 100vw;
   height: 80px;
+
   position: fixed;
+  top: 0;
+  z-index: 10;
 
   background-color: ${(props) => props.theme.color.white};
 
