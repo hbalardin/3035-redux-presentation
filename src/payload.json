@@ -2,19 +2,19 @@
   "data": [
     {
       "id": "2",
-      "title": "Camiseta comum",
+      "title": "Camiseta bonita",
       "price": "R$ 39",
       "path": "products/white-tshirt.png"
     },
     {
       "id": "3",
-      "title": "Outra camiseta",
+      "title": "Camiseta bonitinha",
       "price": "R$ 49",
       "path": "products/white-tshirt.png"
     },
     {
       "id": "4",
-      "title": "Camiseta incomum",
+      "title": "Camiseta bonitona",
       "price": "R$ 59",
       "path": "products/white-tshirt.png"
     },
