@@ -1,20 +1,16 @@
-import { useState } from 'react';
+import { FaShoppingCart } from 'react-icons/fa';
 
-import { CardContainer, CardContent } from './styles';
+
+import { IProduct } from '../../models/product';
 import { FavoriteButton } from '../FavoriteButton';
 import { Button } from '../Button';
 
-interface ProductCardProps {
-  id: string;
-  title: string;
-  price: string;
-  path: string;
-}
+import { CardContainer, CardContent } from './styles';
+import { theme } from '../../styles/theme';
 
 export const ProductCard = ({
   id, path, price, title,
-}: ProductCardProps): JSX.Element => {
-  const [isFavorite, setIsFavorite] = useState(false);
+}: IProduct): JSX.Element => {
 
   return (
     <CardContainer id={id}>
@@ -27,7 +23,11 @@ export const ProductCard = ({
         <h2>{title}</h2>
         <div>
           <strong>{price}</strong>
-          <Button>Comprar</Button>
+          <Button
+            icon={<FaShoppingCart size={16} color={theme.color.white} />}
+          >
+            Comprar
+          </Button>
         </div>
       </CardContent>
     </CardContainer>

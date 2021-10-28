@@ -10,7 +10,7 @@ interface ButtonProps {
 export const FavoriteButton = ({ isFavorite, onClick }: ButtonProps): JSX.Element => (
   <ButtonContainer type="button" onClick={onClick}>
     {isFavorite
-      ? <FaHeart size={28} color={theme.color.red} />
-      : <FaRegHeart size={28} color={theme.color.red} />}
+      ? <FaHeart size={36} color={theme.color.purple} />
+      : <FaRegHeart size={36} color={theme.color.purple} />}
   </ButtonContainer>
 );
